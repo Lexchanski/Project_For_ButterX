@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Time Capsule for Butter_Xan</title>
+    <link rel="icon" href="favicon (1).ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="favicon (1).ico" type="image/x-icon" />
+  </head>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #000;
+      color: #fff;
+      overflow: hidden;
+      position: relative;
+    }
+    .time-capsule {
+      text-align: center;
+      margin-top: 200px;
+    }
+    .time-capsule h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+    .time-capsule p {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+    .explore-button {
+      display: inline-block;
+      padding: 12px 24px;
+      background-color: #333;
+      color: #fff;
+      text-decoration: none;
+      font-size: 18px;
+      border-radius: 5px;
+      transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+    .explore-button:hover {
+      background-color: #555;
+      transform: scale(1.1);
+    }
+    .site-details {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      cursor: pointer;
+      z-index: 9999;
+    }
+    .details-icon {
+      width: 25px;
+      height: 25px;
+      background-color: #333;
+      color: #fff;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+    }
+    .details-tooltip {
+      background-color: rgba(0, 0, 0, 0.9);
+      color: #fff;
+      padding: 10px;
+      border-radius: 5px;
+      margin-top: 5px;
+      display: none;
+      position: relative;
+      width: 200px;
+    }
+    .site-details:hover .details-tooltip {
+      display: block;
+    }
+  </style>
+  <body>
+    <div class="site-details">
+      <div class="details-icon">i</div>
+      <div class="details-tooltip">
+        This platform is designed to save and transfer your information, as well
+        as the information of other users for the future generation!
+      </div>
+    </div>
+    <div class="time-capsule my-5">
+      <h1>Time Capsule</h1>
+      <p>Click the button to check out your friend's message.</p>
+      <a href="Capsule.html" class="explore-button">Explore</a>
+    </div>
+  </body>
+</html>
